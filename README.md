@@ -7,7 +7,7 @@ Mas fui lá e aprendi a fazer com CSS kkkkkkk
 Eu ameiiii desenvolver esse projeto!!
 E detalhe, também tentei deixar ele responsivo e consegui, uhuuuulll!!
 
-Aos meus Front-Friends que me pediram para ver o código que desenvolvi, ta na mão!! kkk
+Aos meus Front-Friends que me pediram para ver o código que desenvolvi, tá na mão!! kkk
 
 A Fernandinha criança ficaria muito orgulhosa de mim! 🥰
 E que venham muitos e muitos mais projetos, e que eu evolua cada dia mais!! 🙌🏻🥰
