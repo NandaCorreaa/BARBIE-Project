@@ -1,4 +1,4 @@
-# BARBIE-Project
+# BARBIE-Project 💖
 Hoje venho trazer o projeto que eu desenvolvi do site da Barbie!! Ahhhhhh😍
 
 Como eu fiquei apaixonada pelo site oficial da Barbie, tentei fazer um igual com as tecnologias que eu sei: HTML e CSS.
