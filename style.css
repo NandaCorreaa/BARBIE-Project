@@ -1,0 +1,729 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-image: url(assets/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+
+nav{
+    height: 7vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15px;
+    
+}
+
+ul{
+    width: 5vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav img{
+    width: 1.8vw;
+}
+
+.info{
+    height: 23vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.conteinerNomes{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;    
+    font-family: 'Reem Kufi', sans-serif;
+    color: white;
+    line-height: 80px;
+    letter-spacing: -5px;
+
+}
+
+.primeiro{
+    font-size: 70px;
+}
+
+.segundo{
+    font-size: 90px;
+}
+
+.elaeele{
+    width: 70%;
+    height: 34vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    word-spacing: 5px;
+}
+
+.data{
+    width: 70%;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Reem Kufi', sans-serif;
+    line-height: 40px;
+
+}
+
+.lançamento{
+    font-family: 'Mystery Quest', cursive;
+    font-size: 60px;
+}
+
+.cinema{
+    font-size: 30px;
+}
+
+.classificação{
+    font-size: 19px;
+    line-height: 10px;
+}
+
+.redes{
+    width: 69%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redesLinks{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.face{
+    width: 2.2vw;
+}
+
+.twitter{
+    width: 2.5vw;
+}
+
+.insta{
+    width: 3vw;
+}
+
+.tiktok{
+    width: 2vw;
+}
+
+.botoes{
+    width: 69vw;
+    height: 9vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.botoesItens{
+    width: 35%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+
+.botaoingresso{
+    text-decoration: none;
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 40px;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    background-color: #ff009d;
+    color: white; 
+    word-spacing: 5px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.botaotrailer{
+    text-decoration: none;
+    border: solid 2px white;
+    border-radius: 40px;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    background-color: #ff009d;
+    color: white; 
+    word-spacing: 5px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.seta{
+    width: 70.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seta img{
+    width: 1.8vw;
+}
+
+.videos{
+    background-color: #0d0d0d;
+    height: 164vh;
+    padding: 40px;
+}
+
+h2{
+    font-size: 40px;
+    color: #e7016c;
+    font-family: 'Reem Kufi', sans-serif;
+    text-align: center;
+}
+
+.trailer1{
+    height: 74vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.trailer2{
+    height: 74vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+iframe{
+    border: 4px solid #3e0229;
+    width: 55vw;
+    height: 65vh;
+}
+
+.sinopse{
+    background-color: #141414;
+    padding: 20px;
+    height: 130vh;
+}
+
+.conteinerlogosinopse{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logosinopse{
+    width: 20vw;
+}
+
+.conteinertexto{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.sinopse p{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    color: white;
+    font-size: 20px;
+    font-family: 'Reem Kufi', sans-serif;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+
+}
+
+.galeria{
+    background-color: #030303;
+    width: 100%;
+    height: 110vh;
+    padding: 50px;
+
+}
+
+
+
+.posters{
+    border: solid 1px #030303;
+    height: 77vh;
+    width: 30.3%;
+    overflow: hidden;
+    position: absolute;
+    top: 446%;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.navegação{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.barra{
+    width: 19.5px;
+    height: 21px;
+    margin: 2.2px;
+    border-radius: 30%;
+    border: solid 2px white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.barra:hover{
+    background-color: white;
+}
+
+input{
+    display: none;
+}
+
+.personagens {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.personagens img{
+    width: 41.6;
+}
+
+.slide{
+    transition: 0.4;
+}
+
+#barbie:checked ~ .slide1{
+    margin-left: 0.09%;
+}
+
+#ken:checked ~ .slide2{
+    margin-left: -20%;
+}
+
+#america:checked ~ .slide3{
+    margin-left: -40%;
+}
+
+#ana:checked ~ .slide4{
+    margin-left: -60%;
+}
+
+#ariana:checked ~ .slide5{
+    margin-left: -80%;
+}
+
+#connor:checked ~ .slide6{
+    margin-left: -100.2%;
+}
+
+#dua:checked ~ .slide7{
+    margin-left: -120.2%;
+}
+
+#emmerald:checked ~ .slide8{
+    margin-left: -140.3%;
+}
+
+#emma:checked ~ .slide9{
+    margin-left: -160.4%;
+}
+
+#hari:checked ~ .slide10{
+    margin-left: -180.5%;
+}
+
+#helen:checked ~ .slide11{
+    margin-left: -200.5%;
+}
+
+#issa:checked ~ .slide12{
+    margin-left: -220.6%;
+}
+
+#jamie:checked ~ .slide13{
+    margin-left: -240.6%;
+}
+
+#kate:checked ~ .slide14{
+    margin-left: -260.7%;
+}
+
+#kingsley:checked ~ .slide15{
+    margin-left: -280.7%;
+}
+
+#alexandra:checked ~ .slide16{
+    margin-left: -300.7%;
+}
+
+#michael:checked ~ .slide17{
+    margin-left: -320.8%;
+}
+
+#ncuti:checked ~ .slide18{
+    margin-left: -340.8%;
+}
+
+#nicola:checked ~ .slide19{
+    margin-left: -360.9%;
+}
+
+#ritu:checked ~ .slide20{
+    margin-left: -380.9%;
+}
+
+#scott:checked ~ .slide21{
+    margin-left: -401%;
+}
+
+#sharon:checked ~ .slide22{
+    margin-left: -421%;
+}
+
+#simu:checked ~ .slide23{
+    margin-left: -441.1%;
+}
+
+#will:checked ~ .slide24{
+    margin-left: -461.1%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    font-family: 'Reem Kufi', sans-serif;
+    height: 4vh;
+
+}
+
+@media (max-width: 768px) {
+    header{
+        background-image: url(assets/fundoresponsivo1.png);
+    }
+
+    nav img{
+        width: 3.4vw;
+    }
+
+    ul{
+        width: 12.5vw;
+    }
+
+    .info{
+        width: 100%;
+        height: 10vh;
+    }
+
+    .conteinerNomes{
+        width: 100%;
+        line-height: 42px;
+        justify-content: space-between ;
+
+    }
+
+    .primeiro{
+        font-size: 38px;
+    }
+    
+    .segundo{
+        font-size: 48px;
+    }
+
+    .margot{
+        width: 40vw;
+    }
+
+    .ryan{
+        width: 40vw;
+
+    }
+
+    .elaeele{
+        display: none;
+    }
+
+    .data{
+        display: none;
+    }
+
+    .redes{
+        width: 100%;
+        position: absolute;
+        top: 79vh;
+    }
+
+    
+
+    .botoes{
+        width: 100%;
+        position: absolute;
+        top: 85vh;
+        font-size: 10px;
+    }
+
+    .seta{
+        width: 100%;
+        position: absolute;
+        top: 97vh;
+    }
+
+    
+
+    .botoesItens{
+        width: 100%;
+    
+    }
+
+    .botaoingresso{
+        width: 100vw;
+        height: 4.5vh;
+        margin-left: 20px;
+        text-align: center;
+        padding-left: 3.2vw ;
+
+    }
+
+    .botaotrailer{
+        width: 100vw;
+        height: 4.5vh;
+        margin-left: 20px;
+        padding-left: 6vw ;
+
+    }
+    .redes{
+        width: 100%;
+    }
+
+    .redesLinks{
+        width: 30%;
+     }
+
+    .face{
+        width: 4vw;
+    }
+    
+    .twitter{
+        width: 4.3vw;
+    }
+    
+    .insta{
+        width: 5vw;
+    }
+    
+    .tiktok{
+        width: 3.8vw;
+    }
+
+    .seta img{
+        width: 3.5vw;
+        margin-left: 16px;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    .videos{
+        height: 90vh;
+        padding: 15px;
+    }
+    
+    .trailer1{
+        height: 35vh;
+    }
+
+    .trailer2{
+        height: 35vh;
+    }
+
+    iframe{
+        border: 2.5px solid #3e0229;
+        width: 100%;
+        height: 25vh;
+    }
+
+    .sinopse{
+        padding: 10px;
+        height: 140vh;
+    }
+
+    .conteinerlogosinopse{
+        height: 30vh;
+    }
+
+    .logosinopse{
+        width: 300px;
+    }
+
+    .conteinertexto{
+        width: 100%;
+        height: 105vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .sinopse p{
+       font-size: 14px; 
+       width: 100%;
+       margin-bottom: 1rem;
+       line-height: 18px;
+    }
+
+    .posters{
+        height: 60vh;
+        width: 100%;
+        top: 375%;
+    }
+
+    .barra{
+        width: 13.4px;
+        height: 20px;
+        margin: 1.5px;
+        border: solid 3px black;
+
+    }
+
+    .personagens img{
+        width: 390px;
+    }
+
+    #ken:checked ~ .slide2{
+        margin-left: -20.1%;
+    }
+    
+    #america:checked ~ .slide3{
+        margin-left: -40.2%;
+    }
+    
+    #ana:checked ~ .slide4{
+        margin-left: -60.3%;
+    }
+    
+    #ariana:checked ~ .slide5{
+        margin-left: -80.4%;
+    }
+    
+    #connor:checked ~ .slide6{
+        margin-left: -100.6%;
+    }
+    
+    #dua:checked ~ .slide7{
+        margin-left: -120.8%;
+    }
+    
+    #emmerald:checked ~ .slide8{
+        margin-left: -140.9%;
+    }
+    
+    #emma:checked ~ .slide9{
+        margin-left: -161%;
+    }
+    
+    #hari:checked ~ .slide10{
+        margin-left: -181.1%;
+    }
+    
+    #helen:checked ~ .slide11{
+        margin-left: -201.1%;
+    }
+    
+    #issa:checked ~ .slide12{
+        margin-left: -221.2%;
+    }
+    
+    #jamie:checked ~ .slide13{
+        margin-left: -241.2%;
+    }
+    
+    #kate:checked ~ .slide14{
+        margin-left: -261.3%;
+    }
+    
+    #kingsley:checked ~ .slide15{
+        margin-left: -281.4%;
+    }
+    
+    #alexandra:checked ~ .slide16{
+        margin-left: -301.5%;
+    }
+    
+    #michael:checked ~ .slide17{
+        margin-left: -321.6%;
+    }
+    
+    #ncuti:checked ~ .slide18{
+        margin-left: -342%;
+    }
+    
+    #nicola:checked ~ .slide19{
+        margin-left: -362.1%;
+    }
+    
+    #ritu:checked ~ .slide20{
+        margin-left: -382.1%;
+    }
+    
+    #scott:checked ~ .slide21{
+        margin-left: -402.2%;
+    }
+    
+    #sharon:checked ~ .slide22{
+        margin-left: -422.3%;
+    }
+    
+    #simu:checked ~ .slide23{
+        margin-left: -442.4%;
+    }
+    
+    #will:checked ~ .slide24{
+        margin-left: -462.5%;
+    }
+    
+    
+}
