@@ -13,3 +13,11 @@ Aos meus Front-Friends que me pediram para ver o código que desenvolvi, tá na 
 
 A Fernandinha criança ficaria muito orgulhosa de mim! 🥰
 E que venham muitos e muitos mais projetos, e que eu evolua cada dia mais!! 🙌🏻🥰
+
+
+https://github.com/NandaCorreaa/BARBIE-Project/assets/135910374/ec9929ec-c701-4505-8ad6-940dc14812c4
+
+
+
+https://github.com/NandaCorreaa/BARBIE-Project/assets/135910374/0557d281-47c8-4107-b3b0-a4503736af62
+
